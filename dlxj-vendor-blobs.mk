@@ -161,7 +161,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
   vendor/htc/dlxj/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/dlxj/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-  vendor/htc/dlxj/proprietary/lib/hw/sensors.dlxjj.so:system/lib/hw/sensors.dlxjj.so \
+  vendor/htc/dlxj/proprietary/lib/hw/sensors.dlxj.so:system/lib/hw/sensors.dlxj.so \
   vendor/htc/dlxj/proprietary/lib/libimu.so:system/lib/libimu.so \
   vendor/htc/dlxj/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/dlxj/proprietary/lib/libmllite.so:system/lib/libmllite.so \
