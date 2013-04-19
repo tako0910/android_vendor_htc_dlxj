@@ -138,12 +138,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/htc/dlxj/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
   vendor/htc/dlxj/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-  vendor/htc/dlxj/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
   vendor/htc/dlxj/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
   vendor/htc/dlxj/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/dlxj/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/dlxj/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-  vendor/htc/dlxj/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
   vendor/htc/dlxj/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/dlxj/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
   vendor/htc/dlxj/proprietary/lib/libqdi.so:system/lib/libqdi.so \
