@@ -202,9 +202,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
   vendor/htc/dlxj/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
   vendor/htc/dlxj/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin \
-  vendor/htc/dlxj/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-  vendor/htc/dlxj/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-  vendor/htc/dlxj/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
   vendor/htc/dlxj/proprietary/lib/libwvm.so:system/lib/libwvm.so \
   vendor/htc/dlxj/proprietary/lib/libwvdrm_L1.so:system/lib/libwvdrm_L1.so \
   vendor/htc/dlxj/proprietary/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
