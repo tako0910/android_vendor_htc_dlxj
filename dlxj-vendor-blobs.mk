@@ -229,4 +229,5 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/etc/felica/portal_icon.png:system/etc/felica/portal_icon.png \
   vendor/htc/dlxj/proprietary/etc/felica/toku.png:system/etc/felica/toku.png \
   vendor/htc/dlxj/proprietary/etc/felica/waonicon.png:system/etc/felica/waonicon.png \
-  vendor/htc/dlxj/proprietary/etc/felica/yodo_android_72x72.png:system/etc/felica/yodo_android_72x72.png
+  vendor/htc/dlxj/proprietary/etc/felica/yodo_android_72x72.png:system/etc/felica/yodo_android_72x72.png \
+  vendor/htc/dlxj/proprietary/lib/libobex.so:system/lib/libobex.so \
