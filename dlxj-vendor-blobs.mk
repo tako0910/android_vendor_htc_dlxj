@@ -200,9 +200,16 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
   vendor/htc/dlxj/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
   vendor/htc/dlxj/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
-  vendor/htc/dlxj/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
   vendor/htc/dlxj/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin \
   vendor/htc/dlxj/proprietary/lib/libwvm.so:system/lib/libwvm.so \
   vendor/htc/dlxj/proprietary/lib/libwvdrm_L1.so:system/lib/libwvdrm_L1.so \
   vendor/htc/dlxj/proprietary/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
-  vendor/htc/dlxj/proprietary/lib/libdrmwvmplugin.so:system/lib/libdrmwvmplugin.so
+  vendor/htc/dlxj/proprietary/lib/libdrmwvmplugin.so:system/lib/libdrmwvmplugin.so \
+  vendor/htc/dlxj/proprietary/lib/libBMLSupports.so:system/lib/libBMLSupperts.so \
+  vendor/htc/dlxj/proprietary/lib/libCdAbLayer.so:system/lib/libCdAbLayer.so \
+  vendor/htc/dlxj/proprietary/lib/libJellyPG.so:system/lib/libJellyPG.so \
+  vendor/htc/dlxj/proprietary/lib/libMTVMFCls.so:system/lib/libMTVMFCls.so \
+  vendor/htc/dlxj/proprietary/lib/libnm325.so:system/lib/libnm325.so \
+  vendor/htc/dlxj/proprietary/bin/jellyservice:system/bin/jellyservice \
+  vendor/htc/dlxj/proprietary/bin/mtvmfservice:system/bin/mtvmfservice \
+  vendor/htc/dlxj/proprietary/bin/mtvmfrecservice:system/bin/mtvmfrecservice
