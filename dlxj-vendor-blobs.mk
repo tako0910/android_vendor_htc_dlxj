@@ -231,3 +231,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/etc/felica/waonicon.png:system/etc/felica/waonicon.png \
   vendor/htc/dlxj/proprietary/etc/felica/yodo_android_72x72.png:system/etc/felica/yodo_android_72x72.png \
   vendor/htc/dlxj/proprietary/lib/libobex.so:system/lib/libobex.so \
+  vendor/htc/dlxj/proprietary/etc/kddi/nfc/common.cfg:system/etc/kddi/nfc/common.cfg \
+  vendor/htc/dlxj/proprietary/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
+  vendor/htc/dlxj/proprietary/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg
