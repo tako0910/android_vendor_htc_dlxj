@@ -20,9 +20,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/etc/agps_rm:system/etc/agps_rm \
-  vendor/htc/dlx/proprietary/etc/hldm.bin:system/etc/hldm.bin \
-  vendor/htc/dlx/proprietary/etc/hltof.bin:system/etc/hltof.bin \
-  vendor/htc/dlx/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
+  vendor/htc/dlxj/proprietary/etc/hldm.bin:system/etc/hldm.bin \
+  vendor/htc/dlxj/proprietary/etc/hltof.bin:system/etc/hltof.bin \
+  vendor/htc/dlxj/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
   vendor/htc/dlxj/proprietary/bin/adaptive:system/bin/adaptive \
   vendor/htc/dlxj/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/dlxj/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
