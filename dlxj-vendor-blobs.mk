@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/bin/hcheck:system/bin/hcheck \
   vendor/htc/dlxj/proprietary/bin/hdmid:system/bin/hdmid \
   vendor/htc/dlxj/proprietary/bin/ks:system/bin/ks \
-  vendor/htc/dlx/proprietary/bin/lsc_camera:system/bin/lsc_camera \
+  vendor/htc/dlxj/proprietary/bin/lsc_camera:system/bin/lsc_camera \
   vendor/htc/dlxj/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
   vendor/htc/dlxj/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
   vendor/htc/dlxj/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
