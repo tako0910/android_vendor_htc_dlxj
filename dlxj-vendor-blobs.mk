@@ -20,9 +20,13 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/etc/agps_rm:system/etc/agps_rm \
+  vendor/htc/dlx/proprietary/etc/hldm.bin:system/etc/hldm.bin \
+  vendor/htc/dlx/proprietary/etc/hltof.bin:system/etc/hltof.bin \
+  vendor/htc/dlx/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
   vendor/htc/dlxj/proprietary/bin/adaptive:system/bin/adaptive \
   vendor/htc/dlxj/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/dlxj/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+  vendor/htc/dlxj/proprietary/bin/awb_camera:system/bin/awb_camera \
   vendor/htc/dlxj/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
   vendor/htc/dlxj/proprietary/bin/bma150_usr:system/bin/bma150_usr \
   vendor/htc/dlxj/proprietary/bin/charging:system/bin/charging \
@@ -31,6 +35,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/bin/hcheck:system/bin/hcheck \
   vendor/htc/dlxj/proprietary/bin/hdmid:system/bin/hdmid \
   vendor/htc/dlxj/proprietary/bin/ks:system/bin/ks \
+  vendor/htc/dlx/proprietary/bin/lsc_camera:system/bin/lsc_camera \
+  vendor/htc/dlxj/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+  vendor/htc/dlxj/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
   vendor/htc/dlxj/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
   vendor/htc/dlxj/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/dlxj/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -44,6 +51,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/bin/usbhub:system/bin/usbhub \
   vendor/htc/dlxj/proprietary/bin/usbhub_init:system/bin/usbhub_init \
   vendor/htc/dlxj/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+  vendor/htc/dlxj/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
+  vendor/htc/dlxj/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
+  vendor/htc/dlxj/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
   vendor/htc/dlxj/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/dlxj/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/dlxj/proprietary/lib/libmode10GLES20.so:system/lib/libmode10GLES20.so \
@@ -65,7 +75,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/dlxj/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
   vendor/htc/dlxj/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-  vendor/htc/dlxj/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+  vendor/htc/dlxj/proprietary/lib/libhtccamera.so:system/lib/libhtccamera.so \
   vendor/htc/dlxj/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/dlxj/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/dlxj/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
@@ -73,11 +83,18 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/libOlaEngineNew.so:system/lib/libOlaEngineNew.so \
   vendor/htc/dlxj/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/dlxj/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+  vendor/htc/dlxj/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+  vendor/htc/dlxj/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
   vendor/htc/dlxj/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/dlxj/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+  vendor/htc/dlxj/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
   vendor/htc/dlxj/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+  vendor/htc/dlxj/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+  vendor/htc/dlxj/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+  vendor/htc/dlxj/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
   vendor/htc/dlxj/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
   vendor/htc/dlxj/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+  vendor/htc/dlxj/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
   vendor/htc/dlxj/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
   vendor/htc/dlxj/proprietary/lib/libchromatix_ar0260_default_video.so:system/lib/libchromatix_ar0260_default_video.so \
   vendor/htc/dlxj/proprietary/lib/libchromatix_imx175_hdr.so:system/lib/libchromatix_imx175_hdr.so \
@@ -137,7 +154,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
   vendor/htc/dlxj/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/htc/dlxj/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-  vendor/htc/dlxj/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+  vendor/htc/dlxj/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
   vendor/htc/dlxj/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
   vendor/htc/dlxj/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/dlxj/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
