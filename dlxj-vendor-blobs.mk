@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/etc/hldm.bin:system/etc/hldm.bin \
   vendor/htc/dlxj/proprietary/etc/hltof.bin:system/etc/hltof.bin \
   vendor/htc/dlxj/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
+  vendor/htc/dlxj/proprietary/etc/thermald.conf:system/etc/thermald.conf \
   vendor/htc/dlxj/proprietary/bin/adaptive:system/bin/adaptive \
   vendor/htc/dlxj/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/dlxj/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
