@@ -50,9 +50,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
   vendor/htc/dlxj/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/dlxj/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-  vendor/htc/dlxj/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/htc/dlxj/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-  vendor/htc/dlxj/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
   vendor/htc/dlxj/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/dlxj/proprietary/lib/libhtccamera.so:system/lib/libhtccamera.so \
   vendor/htc/dlxj/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
@@ -159,8 +157,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/dlxj/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/dlxj/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-  vendor/htc/dlxj/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-  vendor/htc/dlxj/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/dlxj/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/dlxj/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/dlxj/proprietary/lib/libext3-fileio.so:system/lib/libext3-fileio.so \
@@ -178,7 +174,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
   vendor/htc/dlxj/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
   vendor/htc/dlxj/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-  vendor/htc/dlxj/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
   vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
   vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
   vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b02:system/etc/firmware/hcheck.b02 \
