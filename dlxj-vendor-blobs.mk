@@ -186,5 +186,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/libobex.so:system/lib/libobex.so \
   vendor/htc/dlxj/proprietary/etc/kddi/nfc/common.cfg:system/etc/kddi/nfc/common.cfg \
   vendor/htc/dlxj/proprietary/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
-  vendor/htc/dlxj/proprietary/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
-  vendor/htc/dlxj/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin
+  vendor/htc/dlxj/proprietary/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg
