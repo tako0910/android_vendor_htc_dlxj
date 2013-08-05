@@ -130,7 +130,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/dlxj/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/dlxj/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/dlxj/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
   vendor/htc/dlxj/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
   vendor/htc/dlxj/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/dlxj/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
