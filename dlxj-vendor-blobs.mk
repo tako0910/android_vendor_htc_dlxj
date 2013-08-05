@@ -100,7 +100,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/libchromatix_vd6869_preview.so:/system/lib/libchromatix_vd6869_preview.so \
   vendor/htc/dlxj/proprietary/lib/libchromatix_vd6869_video_hdr.so:/system/lib/libchromatix_vd6869_video_hdr.so \
   vendor/htc/dlxj/proprietary/lib/libchromatix_vd6869_zoe.so:/system/lib/libchromatix_vd6869_zoe.so \
-  vendor/htc/dlx/proprietary/lib/libchromatix_vd6869_zsl.so:/system/lib/libchromatix_vd6869_zsl.so \
+  vendor/htc/dlxj/proprietary/lib/libchromatix_vd6869_zsl.so:/system/lib/libchromatix_vd6869_zsl.so \
   vendor/htc/dlxj/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
   vendor/htc/dlxj/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
   vendor/htc/dlxj/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
