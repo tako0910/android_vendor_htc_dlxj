@@ -161,14 +161,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
   vendor/htc/dlxj/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
   vendor/htc/dlxj/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
-  vendor/htc/dlxj/proprietary/lib/libQSEEComAPI.so:/system/lib/libQSEEComAPI.so \
-  vendor/htc/dlxj/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-  vendor/htc/dlxj/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
-  vendor/htc/dlxj/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
-  vendor/htc/dlxj/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
-  vendor/htc/dlxj/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
-  vendor/htc/dlxj/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
-  vendor/htc/dlxj/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
   vendor/htc/dlxj/proprietary/lib/libBMLSupports.so:system/lib/libBMLSupperts.so \
   vendor/htc/dlxj/proprietary/lib/libCdAbLayer.so:system/lib/libCdAbLayer.so \
   vendor/htc/dlxj/proprietary/lib/libJellyPG.so:system/lib/libJellyPG.so \
